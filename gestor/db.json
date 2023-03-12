@@ -1,0 +1,28 @@
+{"list":[
+  {"id": "1",
+  "nome": "Blusa",
+  "quantidade": "2",
+  "preco": "150.00"
+  },
+  {"id": "2",
+  "nome": "Camisa",
+  "quantidade": "2",
+  "preco": "150.00"
+  },
+  {"id": "3",
+  "nome": "Camiseta",
+  "quantidade": "2",
+  "preco": "150.00"
+  },
+  {"id": "4",
+  "nome": "Vestido",
+  "quantidade": "2",
+  "preco": "150.00"
+  },
+  {"id": "5",
+  "nome": "Macacão",
+  "quantidade": "2",
+  "preco": "150.00"
+  }
+  ]
+}
