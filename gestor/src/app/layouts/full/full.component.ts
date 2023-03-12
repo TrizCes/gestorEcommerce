@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class FullComponent {
 
+  logout(){
+    console.log('LocalStorage clean');
+    alert('Já está indo? Volte logo');
+  }
 }
