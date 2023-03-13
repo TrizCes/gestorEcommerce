@@ -23,7 +23,6 @@ export class ProductlistComponent implements OnInit {
   onSubmit(): void {
     console.log('Buscando');
     console.log(this.searchItem);
-
   }
 }
 
