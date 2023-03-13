@@ -1,0 +1,26 @@
+<section class="container p-5">
+  <form [formGroup]="recordForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="id" class="form-label">ID</label>
+      <input type="text" class="form-control" id="id" [placeholder]="['ID do produto']" formControlName="id">
+    </div>
+    <div class="mb-3">
+      <label for="name" class="form-label">Nome do produto</label>
+      <input type="text" class="form-control" id="nome" [placeholder]="['Nome do produto']" formControlName="nome">
+    </div>
+    <div class="mb-3">
+      <label for="qnt" class="form-label">Quantidade</label>
+      <input type="text" class="form-control" id="qnt" formControlName="quantidade" [placeholder]="['un']">
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Preço</label>
+      <input type="text" class="form-control" id="price" formControlName='preco' [placeholder]="['00.00']">
+    </div>
+    <div class="mb-3">
+      <label for="name" class="form-label">Criado por:</label>
+      <input type="text" class="form-control" id="name" [readonly]="true" [value]= "[ email | nameUser ]">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</section>
