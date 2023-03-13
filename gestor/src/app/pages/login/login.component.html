@@ -3,12 +3,12 @@
     <h1><img src="../../../assets/compre-agora.png"></h1>
     <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
       <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" formControlName="email">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" formControlName="email">
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Senha</label>
-        <input class="form-control" type="password" id="exampleFormControlTextarea1" rows="3" formControlName="password">
+        <label for="password" class="form-label">Senha</label>
+        <input class="form-control" type="password" id="password" rows="3" formControlName="password">
       </div>
       <div class="d-grid gap-2 col-6 mx-auto">
       <button class="btn btn-info" type="submit">Entrar</button>

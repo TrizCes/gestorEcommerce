@@ -29,8 +29,12 @@ export class AuthService {
     return this.statusLogin;
   }
 
+  logOut(): boolean {
+    localStorage.clear();
+    return this.statusLogin = false;
+  }
+
   set(key: string, value: any): void {
-    const item = value;
-    localStorage.setItem(key, item);
+    localStorage.setItem(key, value);
   }
 }
